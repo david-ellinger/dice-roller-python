@@ -1,7 +1,7 @@
-version: '2'
+version: '3'
 
 services:
-  website:
+  app:
     build: .
     command: >
       gunicorn -b 0.0.0.0:8000

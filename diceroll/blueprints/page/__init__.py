@@ -1,0 +1,1 @@
+from diceroll.blueprints.page.views import page
