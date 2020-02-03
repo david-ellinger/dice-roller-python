@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 
 services:
   app:
@@ -14,3 +14,4 @@ services:
       - '.:/diceroll'
     ports:
       - '8000:8000'
+

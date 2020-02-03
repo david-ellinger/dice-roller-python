@@ -1,4 +1,4 @@
-FROM python:2
+FROM python:3.7.5-slim-buster
 MAINTAINER David Ellinger <david.ellinger@me.com>
 
 ENV INSTALL_PATH /diceroll
