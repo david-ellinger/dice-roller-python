@@ -14,4 +14,12 @@ services:
       - '.:/diceroll'
     ports:
       - '8000:8000'
+  test:
+    build: .
+    command: >
+      pytest diceroll/tests
+    environment:
+      PYTHONUNBUFFERED: 'true'
+    volumes:
+      - '.:/diceroll'
 
