@@ -1,2 +1,2 @@
 DEBUG = True
-HELLO = "Hello World?"
+SERVER_NAME = "localhost:8000"

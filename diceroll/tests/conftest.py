@@ -1,5 +1,7 @@
 import pytest
+
 from diceroll.app import create_app
+
 
 @pytest.yield_fixture(scope='session')
 def app():
