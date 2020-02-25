@@ -1,6 +1,7 @@
 from flask import Flask
 from diceroll.blueprints.page import page
 
+
 def create_app(settings_override=None):
     """
     Create a Flask application using the app factory pattern.

@@ -17,7 +17,7 @@ services:
   test:
     build: .
     command: >
-      pytest diceroll/tests
+      bash -c "py.test --cov-report term-missing --cov -vv diceroll && flake8 . --exclude __init__.py"
     environment:
       PYTHONUNBUFFERED: 'true'
     volumes:

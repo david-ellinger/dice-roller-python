@@ -18,6 +18,7 @@ def app():
     yield _app
     ctx.pop()
 
+
 @pytest.yield_fixture(scope='function')
 def client(app):
     """
